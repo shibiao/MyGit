@@ -19,6 +19,8 @@
     self.view.backgroundColor=[UIColor redColor];
     UIButton *btn=[UIButton buttonWithType:UIButtonTypeCustom];
     btn.backgroundColor=[UIColor yellowColor];
+    UILabel *label=[[UILabel alloc]init];
+    [self.view addSubview:label];
     [self.view addSubview:btn];
     // Do any additional setup after loading the view, typically from a nib.
 }
