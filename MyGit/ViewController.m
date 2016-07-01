@@ -18,6 +18,7 @@
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor redColor];
     UIButton *btn=[UIButton buttonWithType:UIButtonTypeCustom];
+    [self.view addSubview:btn];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
